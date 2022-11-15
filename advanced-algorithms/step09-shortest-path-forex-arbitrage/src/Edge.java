@@ -1,5 +1,3 @@
-package com.globalsoftwaresupport;
-
 public class Edge {
 
 	private double weight;

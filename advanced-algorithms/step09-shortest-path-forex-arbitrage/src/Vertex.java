@@ -1,5 +1,3 @@
-package com.globalsoftwaresupport;
-
 import java.util.ArrayList;
 import java.util.List;
 

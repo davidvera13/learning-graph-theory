@@ -1,15 +1,13 @@
-package com.globalsoftwaresupport;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class BellmanFordAlgorithm {
+public class BellmanFord {
 
 	private List<Vertex> vertexList;
 	private List<Edge> edgeList;
 	private List<Vertex> cycleList;
 	
-	public BellmanFordAlgorithm(List<Vertex> vertexList, List<Edge> edgeList) {
+	public BellmanFord(List<Vertex> vertexList, List<Edge> edgeList) {
 		this.vertexList = vertexList;
 		this.edgeList = edgeList;
 		this.cycleList = new ArrayList<>();
@@ -67,7 +65,7 @@ public class BellmanFordAlgorithm {
 			for(Vertex vertex : this.cycleList){
 				System.out.println(vertex);
 			}
-		}else{
+		} else {
 			System.out.println("No arbitrage opportunity...");
 		}
 	}
